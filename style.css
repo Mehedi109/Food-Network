@@ -13,16 +13,29 @@ p{
     display: flex;
     margin-bottom: 100px;
 }
-ul{
-    list-style: none;
+.header{
+    background: black;
+}
+.header-left{
+    width: 30%;
+    color: tomato;
+    margin-left: 100px;
+}
+.header-right{
+    width: 60%;
+    margin-left: 400px;
+}
+.header ul li a{
     float: left;
-}
-ul li a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding-left: 50px;
+    font-size: 17px;
 }
-.first-heading{
-    margin-top: 150px;
+.header ul li a:hover{
+    background: tomato;
+    color: #ddd;
 }
 .skip-color{
     color: orange;
