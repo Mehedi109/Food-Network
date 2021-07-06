@@ -57,7 +57,7 @@ p{
 }
 .about-section{
     background-image: url(images/7.png);
-    background-repeat: no-repat;
+    background-repeat: no-repeat;
     margin: 50px;
 }
 .about{
@@ -81,7 +81,7 @@ p{
 .para{
     margin-left: 300px;
     margin-right: 300px;
-   text-align: center;
+    text-align: center;
 }
 .recipie{
     width: 30%;
